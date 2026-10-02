@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_rps_referee_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_rps_referee" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="50000001fs"></ZoomEndTime>
+      <Cursor1Time time="44485000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/tb_rps_referee/a" type="array">
+      <obj_property name="ElementShortName">a[1:0]</obj_property>
+      <obj_property name="ObjectShortName">a[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rps_referee/b" type="array">
+      <obj_property name="ElementShortName">b[1:0]</obj_property>
+      <obj_property name="ObjectShortName">b[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rps_referee/win_a" type="logic">
+      <obj_property name="ElementShortName">win_a</obj_property>
+      <obj_property name="ObjectShortName">win_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rps_referee/win_b" type="logic">
+      <obj_property name="ElementShortName">win_b</obj_property>
+      <obj_property name="ObjectShortName">win_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_rps_referee/tie" type="logic">
+      <obj_property name="ElementShortName">tie</obj_property>
+      <obj_property name="ObjectShortName">tie</obj_property>
+   </wvobject>
+</wave_config>
